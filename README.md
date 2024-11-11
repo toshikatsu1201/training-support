@@ -23,6 +23,7 @@
 | title   | string     | null: false                    |
 | tag     | string     | null: false                    |
 | content | text       | null: false                    |
+| image   | string     |                                |
 
 ### Association
 
