@@ -89,23 +89,9 @@
   justify-content: space-around;
   padding-top: 50px;
 }
-/* 仮置き */
-.blog1 {
-  background-color: red;
-  height: 350px;
-  width: 350px;
-}
 
-.blog2 {
-  background-color: blue;
-  height: 350px;
-  width: 350px;
+.blog {
+  height: 200px;
+  width: 200px;
 }
-
-.blog3 {
-  background-color: violet;
-  height: 350px;
-  width: 350px;
-}
-/* 仮置き */
 /* トップページ */
