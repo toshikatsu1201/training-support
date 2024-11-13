@@ -4,8 +4,13 @@
   <a class="bodycomposition" href="#">体組成計記録</a>
 </div>
 <div class="blog-list">
-  <%= image_tag "deadlift.png", alt: "ブログ画像", class: "blog" %>
-  <%= image_tag "bench_press.png", alt: "ブログ画像", class: "blog" %>
-  <%= image_tag "noukin.png", alt: "ブログ画像", class: "blog" %>
+  <div class="back-image">
+    <%= image_tag "deadlift.png", alt: "ブログ画像", class: "blog" %>
+    <div class="front-image">ブログ１</div>
+  </div>
+  <div class="back-image">
+    <%= image_tag "bench_press.png", alt: "ブログ画像", class: "blog" %>
+    <div class="front-image">ブログ２</div>
+  </div>
 </div>
 <%= render "shared/footer" %>

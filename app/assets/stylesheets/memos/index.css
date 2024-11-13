@@ -1,14 +1,18 @@
 /* ヘッダー */
-.header-title {
+.header-text {
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 50px;
-  color: whitesmoke;
+  color: black;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.20);
-  background-color: lightgreen;
+  background-color: whitesmoke;
   height: 80px;
   width: 100vw;
+}
+
+.header-title {
+  font-style: oblique;
 }
 
 .header-side {
@@ -19,25 +23,20 @@
 .header-side1 {
   margin-right: 20px;
   text-decoration: none;
-  color: yellow;
+  color: blue;
 }
 
 .header-side2 {
   margin-right: 20px;
   text-decoration: none;
-  color: blue;
+  color: rgb(0, 149, 255);
 }
 
 .header-side3 {
   margin-right: 20px;
   text-decoration: none;
-  color: orange;
-}
-
-.header-side4 {
-  margin-right: 20px;
-  text-decoration: none;
-  color: red;
+  font-size: 30px;
+  color: black;
 }
 /* ヘッダー */
 
@@ -61,7 +60,7 @@
 }
 
 .workout {
-  background-color: aqua;
+  background-color: #5bb0e9;
   height: 400px;
   width: 500px;
   font-size: 40px;
@@ -73,7 +72,7 @@
 }
 
 .bodycomposition {
-  background-color: lightpink;
+  background-color: #5bb0e9;
   height: 400px;
   width: 500px;
   font-size: 40px;
@@ -89,9 +88,10 @@
   justify-content: space-around;
   padding-top: 50px;
 }
-
+/* 仮置き */
 .blog {
   height: 200px;
   width: 200px;
+  border: black solid 1px;
 }
 /* トップページ */
