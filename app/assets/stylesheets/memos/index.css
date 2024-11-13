@@ -1,0 +1,91 @@
+/* ヘッダー */
+.header-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 50px;
+  color: black;
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.20);
+  background-color: whitesmoke;
+  height: 80px;
+  width: 100vw;
+}
+
+.header-title {
+  font-style: oblique;
+}
+
+.header-side {
+  display: flex;
+  font-size: 25px;
+}
+
+.header-side1 {
+  margin-right: 20px;
+  text-decoration: none;
+  color: blue;
+}
+
+.header-side2 {
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(0, 149, 255);
+}
+
+.header-side3 {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+/* ヘッダー */
+
+/* フッター */
+.footer-contents {
+  display: flex;
+  justify-content: center;
+}
+
+.©️ {
+  display: flex;
+  justify-content: center;
+}
+/* フッター */
+
+/* トップページ */
+.memo-list {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.workout {
+  background-color: #5bb0e9;
+  height: 400px;
+  width: 500px;
+  font-size: 40px;
+  color: black;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 20px 20px;
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+}
+
+.bodycomposition {
+  background-color: #5bb0e9;
+  height: 400px;
+  width: 500px;
+  font-size: 40px;
+  color: black;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 20px 20px;
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+}
+
+.blog-list {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+/* トップページ */
