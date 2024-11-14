@@ -1,5 +1,5 @@
 /* ヘッダー */
-.header-text {
+.header-text-A {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -11,19 +11,26 @@
   width: 100vw;
 }
 
+.header-text-B {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 50px;
+  color: black;
+  background-color: whitesmoke;
+  height: 80px;
+  width: 100vw;
+}
+
 .header-title {
   font-style: oblique;
+  text-decoration: none;
+  color: black;
 }
 
 .header-side {
   display: flex;
   font-size: 25px;
-}
-
-.header-side1 {
-  margin-right: 20px;
-  text-decoration: none;
-  color: blue;
 }
 
 .header-side2 {
@@ -37,6 +44,12 @@
   text-decoration: none;
   font-size: 30px;
   color: black;
+}
+
+.user-name {
+  margin-right: 20px;
+  text-decoration: none;
+  color: blue;
 }
 /* ヘッダー */
 
@@ -89,3 +102,13 @@
   padding-top: 50px;
 }
 /* トップページ */
+
+/* ユーザー新規登録 */
+.form-field {
+
+}
+
+.form-submit {
+
+}
+/* ユーザー新規登録 */

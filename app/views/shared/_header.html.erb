@@ -1,11 +1,15 @@
 <header>
-  <div class="header-text">
-    <h1 class="header-title">トレーニングサポート</h1>
+  <div class="header-text-A">
+    <%= link_to "トレーニングサポート", root_path, class: "header-title" %>
     <ul class="header-side">
-      <li><a class="header-side1" href="#">マイページ</a></li>
-      <li><a class="header-side2" href="#">ログイン</a></li>
-      <li><a class="header-side2" href="#">ログアウト</a></li>
-      <li><a class="header-side2" href="#">新規登録</a></li>
+      <% if user_signed_in? %>
+            <%# マイページに遷移するパスを↓に設定する %>
+        <li><%= link_to current_user.name, "#", class: "user-name" %></li>
+        <li><%= link_to 'ログアウト', destroy_user_session_path, data: {turbo_method: :delete}, class: "header-side2" %></li>
+      <% else %>
+        <li><%= link_to 'ログイン', new_user_session_path, class: "header-side2" %></li>
+        <li><%= link_to '新規登録', new_user_registration_path, class: "header-side2" %></li>
+      <% end %>
       <li><a class="header-side3" href="#">Tips</a></li>
     </ul>
   </div>

@@ -7,7 +7,6 @@
 | email              | string | null: false, unique: true |
 | encrypted_password | string | null: false               |
 | name               | string | null: false               |
-| profile            | text   | null: false               |
 
 ### Association
 
