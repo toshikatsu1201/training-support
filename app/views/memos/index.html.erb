@@ -1,7 +1,7 @@
 <%= render "shared/header" %>
 <div class="memo-list">
-  <a class="workout" href="#">トレーニングログ</a>
-  <a class="bodycomposition" href="#">体組成計記録</a>
+  <%= link_to 'トレーニングログ', new_memo_path, class: "workout" %>
+  <%= link_to '体組成計記録', "#", class: "bodycomposition" %>
 </div>
 <div class="blog-list">
     <div>ブログ１</div>
