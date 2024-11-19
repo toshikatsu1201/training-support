@@ -1,24 +1,8 @@
 class MemosController < ApplicationController
-  def index
-    
-  end
-
   def new
-    @memo = Memo.new
-  end
-
-  def create
-    @memo = Memo.new(memo_params)
-    if @memo.save
-      redirect_to root_path
-    else
-      render :new, status: :unprocessable_entity
+    @memo = Memo.find_by(id: params[:id])
+    unless @memo
+      redirect_to root_path, alert: "指定されたメモが見つかりません。"
     end
-  end
-
-  private
-
-  def memo_params
-    params.require(:memo).permit(:user, :memo, :label, :work_date).merge(user_id: current_user.id)
   end
 end
