@@ -1,0 +1,10 @@
+<header>
+  <%= link_to "トレーニングサポート", root_path, class: "header-title" %>
+    <button class="create-button">
+      <% if @memo.present? %>
+        <%= link_to '+', new_memo_creatememo_path(memo_id: @memo.id), class: 'button' %>
+      <% else %>
+        <%= link_to '+', new_creatememo_path, class: 'button' %>
+      <% end %>
+    </button>
+</header>
