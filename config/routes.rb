@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   resources :memos, only: [:index, :new, :create] do
     resources :creatememos, only: [:create, :new]
   end
+  resources :tips, only: [:index]
 end
